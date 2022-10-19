@@ -10,6 +10,4 @@ You can help suggesting new projects, editing our web page, translating document
 
 ## 📝 License
 
-This project is under [MIT][1] License.
-
-[1] : LICENSE.md
+This project is under MIT License.
