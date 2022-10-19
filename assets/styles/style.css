@@ -1,0 +1,180 @@
+:root {
+    --background: #F5F5F5;
+    --white: #FFFFFF;
+    --black: #202020;
+    --blue: #2565AE;
+}
+
+* {
+    background-color: var(--background);
+    font-family: 'Montserrat', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    line-height: 1;
+    color: var(--black);
+    background-color: var(--background);
+}
+
+/* header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 1.5rem 1.5rem 1.5rem;
+    align-items: center;
+    font-size: 0.8rem;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--black);
+}
+
+header a {
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none;
+    color: var(--black);
+}
+
+header a:link {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--black);
+}
+
+header a:active {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--black);
+}
+header a:hover {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--black);
+}
+
+header a:visited {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--black);
+}
+
+#navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+#navbar li {
+    font-size: 1.2rem;
+    display: inline-block;
+    margin: 0 0.5rem;
+}
+
+#navbar a {
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: none;
+    color: var(--black);
+}
+
+#navbar a:link {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--black);
+}
+
+#navbar a:active {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--black);
+}
+#navbar a:hover {
+    text-decoration: underline;
+    text-transform: none;
+    color: var(--black);
+}
+
+#navbar a:visited {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--black);
+}
+
+#intro p {
+    font-size: 1.2rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#projects {
+    margin: 2rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#projects h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+#projects h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+#projects ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 0;
+    padding: 0;
+}
+
+#projects li {
+    list-style: none;
+}
+
+#projects a {
+    font-size: 1.0rem;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    color: var(--black);
+}
+
+#projects a:link {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--black);
+}
+
+#projects a:active {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--black);
+}
+#projects a:hover {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--blue);
+}
+
+#projects a:visited {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--black);
+}
