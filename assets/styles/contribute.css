@@ -112,3 +112,56 @@ header a:visited {
     text-transform: none;
     color: var(--black);
 }
+
+#intro h2 {
+    font-size: 1.5rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;  
+}
+
+#intro p {
+    font-size: 1.2rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer {
+    font-size: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+footer a {
+    font-size: 1.0rem;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: none;
+    color: var(--black);
+}
+
+footer a:link {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--black);
+}
+
+footer a:active {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--black);
+}
+footer a:hover {
+    text-decoration: underline;
+    text-transform: none;
+    color: var(--black);
+}
+
+footer a:visited {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--black);
+}
