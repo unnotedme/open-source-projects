@@ -122,28 +122,28 @@ header a:visited {
     justify-content: flex-start;
 }
 
-#projects {
+.projects {
     margin: 2rem;
     display: grid;
     grid-template-columns: 33% 33% 33%;
 }
 
-#projects .project{
+.projects > div{
     padding: 10px;
     margin: 10px;
 }
 
-#projects h2 {
+.projects h2 {
     font-size: 1.4rem;
     font-weight: 600;
 }
 
-#projects h3 {
+.projects h3 {
     font-size: 1.2rem;
     font-weight: 400;
 }
 
-#projects ul {
+.projects ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -151,11 +151,11 @@ header a:visited {
     padding: 0;
 }
 
-#projects li {
+.projects li {
     list-style: none;
 }
 
-#projects a {
+.projects a {
     font-size: 1.0rem;
     font-weight: 400;
     text-decoration: none;
@@ -164,22 +164,28 @@ header a:visited {
     text-align: center;
 }
 
-#projects a:link {
+.projects a:link {
     text-decoration: none;
     text-transform: none;
     color: var(--black);
 }
 
-#projects a:active {
+.projects a:active {
     text-decoration: none;
     text-transform: none;
     color: var(--black);
 }
 
-#projects a:hover {
+.projects a:hover {
     text-decoration: none;
     text-transform: none;
     color: var(--blue);
+}
+
+.projects a:visited {
+    text-decoration: none;
+    text-transform: none;
+    color: var(--black);
 }
 
 footer {
